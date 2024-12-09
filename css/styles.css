@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+.container, .note-container, .feedback-container, .apology-container {
+    padding: 20px;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    background: #ff7e67;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #67c7ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
